@@ -18,7 +18,6 @@ function createChristmasTree(x) {
 
     let root = document.createElement("div");
     root.className = "root";
-    root.innerHTML = "&nbsp;&nbsp;&nbsp;|||||&nbsp;&nbsp;&nbsp;";
     container.appendChild(root);
 }
 

@@ -19,6 +19,9 @@ body {
     font-size: 20px;
 }
 .root {
-    color: brown;
+    background-color: brown;
     font-size: 30px;
+    width:18px;
+    height: 50px;
+    margin: 0 auto;
 }
