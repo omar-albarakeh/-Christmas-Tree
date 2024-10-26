@@ -13,6 +13,7 @@ function createChristmasTree(x) {
     let spaces = " ".repeat(x - i - 1);
     let leaves = "*".repeat(2 * i + 1).split("");
     leaves[0]='<span class="yellow">*</span>';
+    leaves[Math.floor(leaves.length / 2)] = '<span class="red">*</span>';
     leaves[leaves.length - 1] = '<span class="yellow">*</span>';
     level.innerHTML = spaces + leaves.join(" ") + spaces;
     container.appendChild(level);
