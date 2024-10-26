@@ -10,11 +10,18 @@ function createChristmasTree(x) {
     for (let i = 0; i < x; i++) {
     let level = document.createElement("div");
     level.className = "level";
+
     let spaces = " ".repeat(x - i - 1);
-    let leaves = "*".repeat(2 * i + 1).split("");
+
+    let leaves = new Array(2 * i + 1).fill("*");
+
     leaves[0]='<span class="yellow">*</span>';
     leaves[Math.floor(leaves.length / 2)] = '<span class="red">*</span>';
+
+    leaves[Math.floor(Math.random() * leaves.length)] ='<span class="purple">*</span>';
+
     leaves[leaves.length - 1] = '<span class="yellow">*</span>';
+    
     level.innerHTML = spaces + leaves.join(" ") + spaces;
     container.appendChild(level);
     }
