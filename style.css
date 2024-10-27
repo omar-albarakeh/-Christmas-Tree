@@ -4,9 +4,7 @@ body {
     flex-direction: column; 
     align-items: center;
     justify-content: flex-end;
-    background-image: url('./images/img2.jpg');
-    background-attachment: fixed;
-    background-size: contain;
+    background-color: black;
     color: white;
 }
 #container {
@@ -14,7 +12,7 @@ body {
 }
 .star {
     color: yellow;
-    font-size:40px;
+    font-size:80px;
 }
 .level {
     color: green;
@@ -23,7 +21,7 @@ body {
 .root {
     background-color: brown;
     font-size: 30px;
-    width:25px;
+    width:90px;
     height: 50px;
     margin: 0 auto;
 }
@@ -35,4 +33,16 @@ body {
 }
 .purple{
     color:purple;
+}
+.silver{
+    color:silver;
+}
+.pink{
+    color:pink;
+}
+.blue{
+    color:blue;
+}
+.gold{
+    color:gold;
 }

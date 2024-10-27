@@ -19,6 +19,11 @@ function createChristmasTree(x) {
     leaves[Math.floor(leaves.length / 2)] = '<span class="red">*</span>';
 
     leaves[Math.floor(Math.random() * leaves.length)] ='<span class="purple">*</span>';
+    leaves[Math.floor(Math.random() * leaves.length)] ='<span class="silver">*</span>';
+    leaves[Math.floor(Math.random() * leaves.length)] ='<span class="blue">*</span>';
+    leaves[Math.floor(Math.random() * leaves.length)] ='<span class="gold">*</span>';
+    leaves[Math.floor(Math.random() * leaves.length)] ='<span class="pink">*</span>';
+
 
     leaves[leaves.length - 1] = '<span class="yellow">*</span>';
     
