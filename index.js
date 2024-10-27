@@ -27,7 +27,7 @@ function createChristmasTree(x) {
 
     leaves[leaves.length - 1] = '<span class="yellow">*</span>';
     
-    level.innerHTML = spaces + leaves.join(" ") + spaces;
+    level.innerHTML = spaces + leaves.join("") + spaces;
     container.appendChild(level);
     }
 
